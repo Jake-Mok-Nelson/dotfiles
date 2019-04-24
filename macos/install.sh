@@ -9,4 +9,11 @@ fi
 # yeah, let's do that.
 
 echo "› sudo softwareupdate -i -a"
-sudo softwareupdate -i -a
+echo "Perform system update? (y/n)"
+read updateBool
+if [ "$UPDATEBOOL" == "y" ] | [ "$UPDATEBOOL" = "Y" ]; then
+	{
+		sudo softwareupdate -i -a
+	}
+fi
+

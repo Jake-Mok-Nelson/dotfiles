@@ -6,3 +6,5 @@ zstyle ':completion:*' insert-tab pending
 
 # Kubectl completion
 source <(kubectl completion zsh)
+complete -o default -F __start_kubectl k
+

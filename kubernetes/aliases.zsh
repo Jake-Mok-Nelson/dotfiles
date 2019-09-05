@@ -1,4 +1,5 @@
 alias k='kubectl'
+alias kcuc='kubectl config use-context'
 alias ksys='kubectl --namespace=kube-system'
 alias ka='kubectl apply --recursive -f'
 alias ksysa='kubectl --namespace=kube-system apply --recursive -f'

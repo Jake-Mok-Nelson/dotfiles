@@ -33,3 +33,7 @@
         default = simple
 [credential]
 	helper = osxkeychain
+[http "https://gopkg.in"]
+	followRedirects = true
+[http]
+	postBuffer = 524288000
